@@ -14,7 +14,7 @@ int main() {
     char *p = (char*) malloc(100 * sizeof(char)); // asigna suficiente memoria para 100 caracteres
     char *q = (char*) malloc(20 * sizeof(char));  // asigna suficiente memoria para 20 caracteres
 
-    // Imprimir la dirección de memoria de p
+    // Imprimir la direcciÃ³n de memoria de p
     printf("Address of p = %p\n", (void*)p);
 
     // Copiamos la cadena a p
@@ -33,4 +33,3 @@ int main() {
 
     return 0;
 }
-
